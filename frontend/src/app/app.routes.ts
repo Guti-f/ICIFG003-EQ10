@@ -8,5 +8,10 @@ export const routes: Routes = [
   { path: '', component: HomePage },
   { path: 'login', component: LoginPage },
   { path: 'menu', component: MenuPage, canActivate: [authGuard] },
+  {
+    path: 'apoderados',
+    canActivate: [authGuard],
+    loadChildren: () => import('./features/apoderados/apoderados.routes').then(m => m.APODERADOS_ROUTES)
+  },
   { path: '**', redirectTo: '' }
 ];
