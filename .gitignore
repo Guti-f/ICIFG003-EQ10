@@ -1,0 +1,17 @@
+# Compiled
+target/
+
+# IDE
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
