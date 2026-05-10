@@ -1,0 +1,8 @@
+/* Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Estilos globales del colegio */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
