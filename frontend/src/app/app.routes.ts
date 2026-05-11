@@ -13,5 +13,15 @@ export const routes: Routes = [
     canActivate: [authGuard],
     loadChildren: () => import('./features/apoderados/apoderados.routes').then(m => m.APODERADOS_ROUTES)
   },
+  {
+    path: 'profesores',
+    canActivate: [authGuard],
+    loadChildren: () => import('./features/profesores/profesores.routes').then(m => m.PROFESORES_ROUTES)
+  },
+  {
+    path: 'entrevistas',
+    canActivate: [authGuard],
+    loadChildren: () => import('./features/entrevistas/entrevistas.routes').then(m => m.ENTREVISTAS_ROUTES)
+  },
   { path: '**', redirectTo: '' }
 ];
