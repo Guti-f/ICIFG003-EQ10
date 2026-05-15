@@ -6,12 +6,11 @@ Proyecto académico desarrollado para la asignatura **ICIF G003 — Aplicaciones
 
 ---
 
-## 👥 Equipo 10
+## 👥 Equipo 16
 
 | Integrante | Rol |
 |---|---|
-| Lucas Chong | Desarrollador (CRUD de Apoderados + funcionalidad de Entrevistas) |
-| Gustavo Fernández | Desarrollador (CRUD de Profesores) |
+| Lucas Chong | Desarrollador (CRUD de Apoderados + funcionalidad de Entrevistas + CRUD de Profesores)|
 
 ---
 
@@ -171,7 +170,6 @@ Al arrancar el backend por primera vez se crean estos usuarios automáticamente:
 |---|---|---|
 | `admin` | `admin123` | Administrador |
 | `lucas` | `1234` | Lucas Chong |
-| `gustavo` | `1234` | Gustavo Fernández |
 
 ---
 
